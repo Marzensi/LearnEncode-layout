@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width:1140px;
+    margin:0 auto;
+}
+
+div.main-hero {
+    background-image: url("../images/banner-bg.jpg");
+    background-color: #FBE37D;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -200px;
+    height: 100vh;
+}
+
+.page-header {
+    background:rgba(0, 0, 0, .1 );
+}
+
+.logo {
+    float:left;
+}
+
+.logo-img {
+    padding:20px;
+}
+
+.page-nav {
+    float:right;
+}
+
+.page-nav-list {
+    list-style:none;
+
+}
+
+.page-nav-list li {
+    display:inline-block;
+}
+
+.page-nav-list li a {
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 20px;
+    line-height: 24px;
+    display:block;
+}
+
+.page-nav-list li a:hover {
+    background:white;
+    color:black;
+}
+
+.main-banner {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+.main-banner-title {
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:80px;
+
+}
+.main-banner-title>span {
+    color:white;
+}
+
+.main-hero-text {
+    max-width:1000px;
+    text-align: center;
+    line-height: 30px;
+    font-size:18px;
+    padding-bottom:80px;
+    color: gray;
+}
+
+.main-banner-btn {
+    display:inline-block;
+    padding: 20px 0;
+    min-width: 200px;
+    text-align:center;
+    margin: 0 5px;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform:uppercase;
+    border-radius:6px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.6);
+}
+
+.main-banner-btn.left-btn {
+    background: black;
+    color:white;
+}
+
+.main-banner-btn.left-btn:hover{
+    background: rgba(0, 0, 0, 0.6)
+}
+.main-banner-btn.right-btn {
+    background: white;
+    color:black;
+}
+
+.main-banner-btn.right-btn:hover {
+    background: rgba(255, 255, 255, 0.6)
+}
+
+.main-banner-arrow {
+    width:50px;
+    height:50px;
+    margin: 300px auto 0;
+    color: gray;
+}
+
+#section1{
+    height:100vh;
+    background: #F8DA69;
+}
