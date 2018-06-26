@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Encode Sans Condensed', sans-serif;
+    background-color: #F8DA69;
 }
 
 .clearfix:after {
@@ -19,15 +20,17 @@ body{
 
 div.main-hero {
     background-image: url("../images/banner-bg.jpg");
-    background-color: #FBE37D;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -200px;
-    height: 100vh;
+    background-position: center;
+    position:relative;
+    height:100vh;
 }
 
 .page-header {
     background:rgba(0, 0, 0, .1 );
+    width:100%;
+    position:fixed;
 }
 
 .logo {
@@ -77,7 +80,7 @@ div.main-hero {
     font-size: 150px;
     text-transform: uppercase;
     font-weight: bold;
-    padding:80px;
+    padding: 80px 0;
 
 }
 .main-banner-title>span {
@@ -130,7 +133,129 @@ div.main-hero {
     color: gray;
 }
 
-#section1{
+
+#section1,
+#section2 {
     height:100vh;
-    background: #F8DA69;
+    display: flex;
+    align-items: center;
 }
+
+.main-article-title{
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.main-article-title-underlining{
+    border-bottom: 2px solid black;
+    width: 90px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    padding:80px 0;
+    width: 100%;
+
+}
+
+.col-1-3{
+    padding: 0 10px;
+    width: 33.33333%;
+}
+
+
+.article-1-3-img{
+    width:100%;
+}
+
+.article-title{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.article-text{
+    font-size: 14px;
+    color:gray;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+.article-btn{
+    text-decoration: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 30px;
+    color: white;
+    background:black;
+}
+
+.article-btn:hover{
+    background: #F8DA69;
+    color:black;
+}
+
+.col-1-4{
+    padding: 0 20px;
+    width:25%;
+    text-align:center;
+}
+.article-1-4-img {
+    border-radius:50%;
+    width:100%;
+}
+
+#section3{
+    height:70vh;
+}
+
+.col-1-2{
+    width:50%;
+    display:flex;
+    align-items:center;
+}
+
+.col-1-2 >.article-text{
+    padding-bottom:0;
+}
+
+.article-text p {
+    padding-bottom: 15px;
+    margin-right: 15px;
+}
+.article-information{
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:bold;
+}
+
+footer.row{
+    background-color:black;
+    padding: 50px 0;
+    display:block;
+
+}
+
+.col-1-5{
+    display:inline-block;
+    padding-right:150px;
+}
+
+.footer-list{
+    font-size: 14px;
+    font-weight:bold;
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 5px 0;
+    display:block;
+}
+
+.footer-list:hover{
+    text-shadow: 0 0 3px #fff;
+}
+
+
